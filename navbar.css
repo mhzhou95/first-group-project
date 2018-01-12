@@ -6,12 +6,16 @@
 }
 
 #nav li{
-	display: inline;
-	margin: 0 auto;
+	display: inline-block;
+	margin: 1px 3px 1px;
+	font-size: 120%;
 }
 
 #nav ul li a{
-	color: blue;
+	color: #800080;
+}
+#nav li:hover {
+	transform: scale(1.25);
 }
 
 #navheader{

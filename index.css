@@ -26,11 +26,17 @@ body{
 	width: 45%;
 	display: inline-block;
 	margin-left: 10px;
+	background-color: rgba(255, 153, 102,.15);
+	color: #3a133a;
+	font-size: 110%;
 }
 #help{
 	margin: 20px auto;
 	display: inline-block;
 	width: 80%;
+	background-color: rgba(255, 153, 102,.15);
+	color: #3a133a;
+	font-size: 110%;
 }
 
 @media all and (max-width: 992px) and (min-width: 768px) {
