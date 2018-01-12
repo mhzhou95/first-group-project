@@ -1,14 +1,17 @@
-
 #nav{
 	text-align: center;
 	width: 85%;
+	background-color: transparent;
 	margin: auto;	
-
 }
 
 #nav li{
 	display: inline;
 	margin: 0 auto;
+}
+
+#nav ul li a{
+	color: blue;
 }
 
 #navheader{
