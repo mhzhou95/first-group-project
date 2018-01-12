@@ -5,13 +5,14 @@ body{
 	background-size: cover;
 }
 
+
 #mainbody{
 	width: 80%;
 	margin: 5px auto;
 	height: 85%;
 	text-align: center;
 }
-#img1{
+/*#img1{
 	margin:20px auto;
 	width: 50%;
 	height: 300px;
@@ -20,23 +21,36 @@ body{
 	background-repeat: no-repeat;
 	float: left;
 	display: inline-block;
+}*/
+
+#video{
+	width: 400px;
+	height: 300px;
+	float: left;
+	display: inline-block;
+
+
+}
+#break{
+	width: 99%;
+	height: 20px;
 }
 #p1{
 	margin: 20px auto;
 	width: 45%;
 	display: inline-block;
 	margin-left: 10px;
-	background-color: rgba(255, 153, 102,.15);
+	background-color: rgba(255, 153, 102,.13);
 	color: #3a133a;
-	font-size: 110%;
+	font-size: 115%;
 }
 #help{
 	margin: 20px auto;
 	display: inline-block;
 	width: 80%;
-	background-color: rgba(255, 153, 102,.15);
+	background-color: rgba(255, 153, 102,.13);
 	color: #3a133a;
-	font-size: 110%;
+	font-size: 115%;
 }
 
 @media all and (max-width: 992px) and (min-width: 768px) {
