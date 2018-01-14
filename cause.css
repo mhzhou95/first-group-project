@@ -3,42 +3,53 @@
 	padding:0;
 }
 
-.wrapper {
-	width: 100%;
-	text-align: center;	
+.space{
+	width: 80%;
+	margin: 0 auto;
+	height: 30px;
 }
 
-div {
-	display: inline-block;
+.wrapper {
+	width: 80%;
+	margin: 0 auto;
 }
+
 
 .news{
 	padding: 30px;
 }
 
 .posts{
-	width: 300px;
-	border: 1px solid;
+	width: 450px;
+	border: 1px solid lightgrey;
 	background-color: lightyellow;
 	float:left;
-	height: 400px
+	height: 325px
 }
 
 #post1, #post2, #post3, #post4{
-	margin-right:20px;
+	margin-right:10px;
+	margin-top: 10px;
 }
 
 div.desc {
-    padding: 20px 10px;
-    text-align: center;
-}
-
-.gallery {
-	padding: 0px;
+    padding: 10px 35px;
+    text-align: left;
+    color: dimgrey;
 }
 
 .postimage{
-	border: 3px solid;
-	height:150px;
-	margin: 0 auto;
+	width:225px;
+	height:150px ;
+    margin: 0 auto; 
 }
+
+.posttitle{
+	width: 400px;
+	height:50px ;
+	margin: 10px 35px 5px;
+	font-size: 13px;
+	color: teal;
+}
+
+
