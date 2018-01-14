@@ -3,6 +3,10 @@
 	padding:0;
 }
 
+body {
+ background-color:lavenderblush;
+}
+
 .space{
 	width: 80%;
 	margin: 0 auto;
@@ -15,12 +19,9 @@
 }
 
 
-.news{
-	padding: 30px;
-}
 
 .posts{
-	width: 450px;
+	width: 500px;
 	border: 1px solid lightgrey;
 	background-color: lightyellow;
 	float:left;
@@ -32,9 +33,15 @@
 	margin-top: 10px;
 }
 
+.news{
+	float:left;
+	width:100%;
+	padding:20px auto;
+}
+
 div.desc {
     padding: 10px 35px;
-    text-align: left;
+    text-align: justify;
     color: dimgrey;
 }
 
@@ -45,11 +52,57 @@ div.desc {
 }
 
 .posttitle{
-	width: 400px;
-	height:50px ;
+	padding:20px auto;
 	margin: 10px 35px 5px;
 	font-size: 13px;
 	color: teal;
+	text-align: left: 
+}
+
+.line{
+		float:left;
+	width: 100%;
+	border: 0.5px solid lightgrey;
+	margin: 20px auto;
+
+}
+
+.brain{
+float:right;
+margin: 0 20px;
+	text-align: center;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding:3px;
+}
+
+.riskfactors {
+	float:left;
+    margin-right: 20px;
+	text-align: center;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding:3px;
+}
+
+.age {
+    float: right;
+    width:400px;
+    margin-right: 20px;
+	text-align: center;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding:3px;
+    /*overflow: auto;*/
 }
 
 
+ul {
+list-style-position:inside;
+padding: 0 0 0 15px;
+}
+
+figcaption {
+	color:grey;
+	font-size: 14px;
+}
