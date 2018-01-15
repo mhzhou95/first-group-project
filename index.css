@@ -1,13 +1,20 @@
 *{ margin: 0;}
 
+body{
+	background-image: url(images/homeimg2.jpg);
+		background-size: cover;
+		border: 1px;
+
+}
+
 
 #mainbody{
 	width: 80%;
 	margin: 5px auto;
-	height: 85%;
+	height: 90%;
 	text-align: center;
 }
-#img1{
+/*#img1{
 	margin:20px auto;
 	width: 50%;
 	height: 300px;
@@ -16,46 +23,77 @@
 	background-repeat: no-repeat;
 	float: left;
 	display: inline-block;
+}*/
+
+#video{
+	width: 380px;
+	height: 250px;
+	float: left;
+	display: inline-block;
+}
+
+#break{
+	width: 80%;
+	height: 15px;
 }
 #p1{
-	margin: 20px auto;
+	margin: 5px auto;
 	width: 45%;
 	display: inline-block;
 	margin-left: 10px;
+	background-color: rgba(255, 153, 102,.13);
+	color: #3a133a;
+	font-size: 115%;
 }
 #help{
-	margin: 20px auto;
+	margin: 5px auto;
 	display: inline-block;
 	width: 80%;
+	background-color: rgba(255, 153, 102,.13);
+	color: #3a133a;
+	font-size: 115%;
 }
 
 @media all and (max-width: 992px) and (min-width: 768px) {
-	#img1{
-		background-size: auto;
+		#video{
+			margin: auto;
+			width: 95%;
+			height: 400px;
+		}
+		#videodiv{
+			display: block;
+			margin: 0 auto;	
+		}
+		body{
+		background-size:cover;
 		
-
 	}
 }
 
-@media all and (max-width: 767px) and (min-width: 481px) {
-	#img1{
-		background-size:contain;
-		
+@media all and (min-width: 481px) and (max-width: 767px) {
+	#video{
+		margin: auto;
+		width: 90%;
+		height: 300px;
 	}
+	#videodiv{
+		display: block;
+		margin: 0 auto;
+	}		
 }
+
 
 @media all and (max-width: 480px) {
 	#p1{
 		width: 80%;
 		text-align: center;
 	}
-	#img1{
-		background-size:contain;
-		width: 100%;
+	#video{
+	
 		margin:auto;
 		margin-top: 20px;
 		display: block;
-
+		
 	}
 	
 }
