@@ -18,10 +18,45 @@ body {
 	margin: 0 auto;
 }
 
+.brain{
+	float:right;
+	margin: 0 20px;
+	text-align: center;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding:3px;
+}
 
+.riskfactors {
+	float:left;
+    margin-right: 20px;
+	text-align: center;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding:3px;
+}
+
+.age {
+    width: 400px;
+    /*margin: 0px 175px;*/
+	text-align: center;
+	border: 1px solid lightgrey;
+    border-radius: 3px;
+    padding:3px;
+}
+
+ul {
+	list-style-position:inside;
+	padding: 0 0 0 15px;
+}
+
+figcaption {
+	color:grey;
+	font-size: 14px;
+}
 
 .posts{
-	width: 500px;
+	width: 480px;
 	border: 1px solid lightgrey;
 	background-color: lightyellow;
 	float:left;
@@ -31,7 +66,6 @@ body {
 #post1, #post2, #post3, #post4{
 	margin-right:5px;
 	margin-top: 10px;
-	margin-left: 5px
 }
 
 .news{
@@ -68,93 +102,51 @@ div.desc {
 
 }
 
-.brain{
-float:right;
-margin: 0 20px;
-	text-align: center;
-	border: 1px solid lightgrey;
-    border-radius: 3px;
-    padding:3px;
-}
-
-.riskfactors {
-	float:left;
-    margin-right: 20px;
-	text-align: center;
-	border: 1px solid lightgrey;
-    border-radius: 3px;
-    padding:3px;
-}
-
-.age {
-    width: 400px;
-    /*margin: 0px 175px;*/
-	text-align: center;
-	border: 1px solid lightgrey;
-    border-radius: 3px;
-    padding:3px;
-}
-
-
-ul {
-list-style-position:inside;
-padding: 0 0 0 15px;
-}
-
-figcaption {
-	color:grey;
-	font-size: 14px;
-}
-
 @media all and (max-width: 480px){
-.brain{
-width:63%;
-float:none;
-margin: 0 auto 20px;
+	.brain{
+		width:63%;
+		float:none;
+		margin: 0 auto 20px;
+	}
+
+	.riskfactors {
+		width:78%;
+		float: none;
+		margin: 0 auto 20px;
+	}
+
+	.age {
+		float: none;
+		width:100%;
+		margin: 0px 0px;
+	}
+
+	.posts{
+		margin:0 auto;
+		width: 375px;
+		float:none;
+		height: 375px
+	}
 }
 
-.riskfactors {
-	width:78%;
-	float: none;
-    margin: 0 auto 20px;	
-}
-
-.age {
-    float: none;
-    width:100%;
-    margin: 0px 0px;
-}
-
-.posts{
-    margin:0 auto;
-	width: 375px;
-	float:none;
-	height: 375px
-}
-}
 @media all and (min-width: 481px) and (max-width: 767px){
+	.age {
+		width: 400px;
+		margin:0 auto;
+    }
 
-.posts{
-margin:0 auto;
-	width: 293px;
-	height: 425px
-}
-.age {
-    /*float: right;*/
-    width: 400px;
-    margin:0 auto;
-
-}
-
+	.posts{
+		margin:0 auto;
+		width: 293px;
+		height: 425px
+	}
 }
 
 @media all and (min-width: 768px) and (max-width: 992px){
-
-
-.posts{
-margin:0 auto;
-	width: 383px;
-	height: 425px
-}
+	.posts{
+		margin:0 auto;
+		width: 383px;
+		height: 425px
+	}
 }
 
